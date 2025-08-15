@@ -10,7 +10,7 @@ set -g fish_key_bindings fish_vi_key_bindings
 set -g fish_greeting
 
 set -gx LANG en_US.UTF-8
-set -gx EDITOR "nvim"
+set -gx EDITOR nvim
 
 # Use neovim for man pager
 set -gx MANPAGER "nvim +Man!"

@@ -5,13 +5,13 @@ abbr --add ra yy
 abbr --add ps proxy_set
 abbr --add pu proxy_unset
 
-abbr --add n "nvim"
-abbr --add s "fastfetch"
-abbr --add c "clear"
-abbr --add h "htop"
-abbr --add q "exit"
+abbr --add n nvim
+abbr --add s fastfetch
+abbr --add c clear
+abbr --add h htop
+abbr --add q exit
 abbr --add o "open ."
-abbr --add t "tmux"
+abbr --add t tmux
 abbr --add l "eza -ahl --git --accessed --modified --created --icons"
 abbr --add ls "eza --icons"
 abbr --add tree "eza --icons -T"
