@@ -1,6 +1,7 @@
 completions/
 conf.d/fzf.fish
 conf.d/lzx.fish
+conf.d/lzx-*.fish
 fish_variables
 functions/
 themes/
