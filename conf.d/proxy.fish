@@ -1,7 +1,6 @@
 function proxy_set
-    export https_proxy=http://127.0.0.1:7897
-    export http_proxy=http://127.0.0.1:7899
-    export all_proxy=socks5://127.0.0.1:7898
+    set -gx http_proxy http://127.0.0.1:7897
+    set -gx https_proxy http://127.0.0.1:7897
 
     set_color blue
     echo "Proxy Started."
